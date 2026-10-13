@@ -1,0 +1,6 @@
+{
+  "name": "TaskSphere MERN - Enterprise Task Management System",
+  "description": "Role-based Task Management System built with MERN stack featuring Admin & Employee portals, real-time status updates, email notifications, search, and pagination.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

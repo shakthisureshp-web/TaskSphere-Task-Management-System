@@ -1,0 +1,269 @@
+{
+  "users": [
+    {
+      "_id": "usr_admin_001",
+      "name": "Sarah Jenkins",
+      "email": "admin@tasksphere.internal",
+      "password": "$2b$10$K9NFmjavhV7GCPJRvb7rJOLERJmhPCrtxGeUz6glE.ahVZGr/Rob6",
+      "role": "admin",
+      "department": "Executive Operations",
+      "phone": "+1 (555) 019-2834",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+      "isActive": true,
+      "createdAt": "2026-10-13T14:36:03.462Z",
+      "updatedAt": "2026-10-13T14:36:03.462Z"
+    },
+    {
+      "_id": "usr_emp_001",
+      "name": "Alex Rivers",
+      "email": "alex.rivers@tasksphere.internal",
+      "password": "$2b$10$CKaZj4LlqGNH3HmFxKdW7uGtO/17/K5FI7GgaiHYXx7BzRZcH/VBG",
+      "role": "employee",
+      "department": "Frontend Engineering",
+      "phone": "+1 (555) 438-1200",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150",
+      "isActive": true,
+      "createdAt": "2026-10-13T14:36:03.462Z",
+      "updatedAt": "2026-10-13T14:36:03.462Z"
+    },
+    {
+      "_id": "usr_emp_002",
+      "name": "Maria Chen",
+      "email": "maria.chen@tasksphere.internal",
+      "password": "$2b$10$CKaZj4LlqGNH3HmFxKdW7uGtO/17/K5FI7GgaiHYXx7BzRZcH/VBG",
+      "role": "employee",
+      "department": "Backend Platform",
+      "phone": "+1 (555) 782-9912",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150",
+      "isActive": true,
+      "createdAt": "2026-10-13T14:36:03.462Z",
+      "updatedAt": "2026-10-13T14:36:03.462Z"
+    },
+    {
+      "_id": "usr_emp_003",
+      "name": "David Kim",
+      "email": "david.kim@tasksphere.internal",
+      "password": "$2b$10$CKaZj4LlqGNH3HmFxKdW7uGtO/17/K5FI7GgaiHYXx7BzRZcH/VBG",
+      "role": "employee",
+      "department": "Product & UI/UX",
+      "phone": "+1 (555) 234-8711",
+      "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=150",
+      "isActive": true,
+      "createdAt": "2026-10-13T14:36:03.462Z",
+      "updatedAt": "2026-10-13T14:36:03.462Z"
+    },
+    {
+      "_id": "usr_emp_004",
+      "name": "Priya Sharma",
+      "email": "priya.sharma@tasksphere.internal",
+      "password": "$2b$10$CKaZj4LlqGNH3HmFxKdW7uGtO/17/K5FI7GgaiHYXx7BzRZcH/VBG",
+      "role": "employee",
+      "department": "QA & DevOps",
+      "phone": "+1 (555) 912-3456",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "isActive": true,
+      "createdAt": "2026-10-13T14:36:03.462Z",
+      "updatedAt": "2026-10-13T14:36:03.462Z"
+    }
+  ],
+  "tasks": [
+    {
+      "_id": "task_ua7i3ofmv6saids",
+      "title": "Test Verification Task",
+      "description": "Verify automated email notification pipeline",
+      "assignedTo": "usr_emp_001",
+      "assignedToName": "Alex Rivers",
+      "assignedToEmail": "alex.rivers@tasksphere.internal",
+      "assignedBy": "usr_admin_001",
+      "assignedByName": "Sarah Jenkins",
+      "priority": "High",
+      "status": "In Progress",
+      "notes": "Started working on this verification step.",
+      "activityLog": [
+        {
+          "action": "Status updated: Not Started ➔ In Progress",
+          "performedBy": "Alex Rivers",
+          "performedByRole": "employee",
+          "timestamp": "2026-10-13T14:36:25.016Z",
+          "details": "Notes: Started working on this verification step."
+        },
+        {
+          "action": "Task Created & Assigned",
+          "performedBy": "Sarah Jenkins",
+          "performedByRole": "admin",
+          "timestamp": "2026-10-13T14:36:19.215Z",
+          "details": "Assigned to Alex Rivers with High priority."
+        }
+      ],
+      "createdAt": "2026-10-13T14:36:19.215Z",
+      "updatedAt": "2026-10-13T14:36:25.016Z"
+    },
+    {
+      "_id": "task_001",
+      "title": "Implement Dark Mode and Accessible Color Tokens",
+      "description": "Refactor Tailwind styles to include WCAG AAA compliant color contrasts for high-priority dashboards.",
+      "assignedTo": "usr_emp_001",
+      "assignedToName": "Alex Rivers",
+      "assignedToEmail": "alex.rivers@tasksphere.internal",
+      "assignedBy": "usr_admin_001",
+      "assignedByName": "Sarah Jenkins",
+      "priority": "High",
+      "status": "In Progress",
+      "dueDate": "2026-10-14",
+      "notes": "Working on palette mapping with design system.",
+      "activityLog": [
+        {
+          "action": "Task Created",
+          "performedBy": "Sarah Jenkins",
+          "performedByRole": "admin",
+          "timestamp": "2026-10-12T14:36:03.463Z",
+          "details": "Assigned to Alex Rivers with High priority."
+        },
+        {
+          "action": "Status Updated to In Progress",
+          "performedBy": "Alex Rivers",
+          "performedByRole": "employee",
+          "timestamp": "2026-10-13T14:36:03.463Z",
+          "details": "Started reviewing tokens in Figma tokens export."
+        }
+      ],
+      "createdAt": "2026-10-12T14:36:03.463Z",
+      "updatedAt": "2026-10-13T14:36:03.463Z"
+    },
+    {
+      "_id": "task_002",
+      "title": "Optimize MongoDB Aggregation Queries for Analytics",
+      "description": "Add compound indexes on employee tasks table for faster pagination and status grouping.",
+      "assignedTo": "usr_emp_002",
+      "assignedToName": "Maria Chen",
+      "assignedToEmail": "maria.chen@tasksphere.internal",
+      "assignedBy": "usr_admin_001",
+      "assignedByName": "Sarah Jenkins",
+      "priority": "High",
+      "status": "Pending",
+      "dueDate": "2026-10-20",
+      "notes": "Awaiting execution plan approval from architecture review.",
+      "activityLog": [
+        {
+          "action": "Task Created",
+          "performedBy": "Sarah Jenkins",
+          "performedByRole": "admin",
+          "timestamp": "2026-10-13T14:36:03.463Z",
+          "details": "Assigned to Maria Chen."
+        }
+      ],
+      "createdAt": "2026-10-13T14:36:03.463Z",
+      "updatedAt": "2026-10-13T14:36:03.463Z"
+    },
+    {
+      "_id": "task_003",
+      "title": "Design Mobile Task Card Quick-Action Layouts",
+      "description": "Create swipeable task cards with fast status changers for touch devices and tablet viewports.",
+      "assignedTo": "usr_emp_003",
+      "assignedToName": "David Kim",
+      "assignedToEmail": "david.kim@tasksphere.internal",
+      "assignedBy": "usr_admin_001",
+      "assignedByName": "Sarah Jenkins",
+      "priority": "Medium",
+      "status": "Completed",
+      "dueDate": "2026-10-14",
+      "notes": "Final designs handed off to the frontend squad.",
+      "activityLog": [
+        {
+          "action": "Task Created",
+          "performedBy": "Sarah Jenkins",
+          "performedByRole": "admin",
+          "timestamp": "2026-10-11T14:36:03.463Z",
+          "details": "Assigned to David Kim."
+        },
+        {
+          "action": "Status Updated to Completed",
+          "performedBy": "David Kim",
+          "performedByRole": "employee",
+          "timestamp": "2026-10-13T14:36:03.463Z",
+          "details": "Design prototype linked and approved."
+        }
+      ],
+      "createdAt": "2026-10-11T14:36:03.463Z",
+      "updatedAt": "2026-10-13T14:36:03.463Z"
+    },
+    {
+      "_id": "task_004",
+      "title": "Automated CI/CD End-to-End Test Suite Setup",
+      "description": "Configure Playwright headless integration tests to verify login RBAC and email dispatches.",
+      "assignedTo": "usr_emp_004",
+      "assignedToName": "Priya Sharma",
+      "assignedToEmail": "priya.sharma@tasksphere.internal",
+      "assignedBy": "usr_admin_001",
+      "assignedByName": "Sarah Jenkins",
+      "priority": "Medium",
+      "status": "Not Started",
+      "dueDate": "2026-10-20",
+      "notes": "",
+      "activityLog": [
+        {
+          "action": "Task Created",
+          "performedBy": "Sarah Jenkins",
+          "performedByRole": "admin",
+          "timestamp": "2026-10-13T14:36:03.463Z",
+          "details": "Assigned to Priya Sharma."
+        }
+      ],
+      "createdAt": "2026-10-13T14:36:03.463Z",
+      "updatedAt": "2026-10-13T14:36:03.463Z"
+    },
+    {
+      "_id": "task_005",
+      "title": "Review Security Headers and JWT Expiration Handling",
+      "description": "Verify CORS policies, token refreshes, and rate limiting on employee status mutation endpoints.",
+      "assignedTo": "usr_emp_002",
+      "assignedToName": "Maria Chen",
+      "assignedToEmail": "maria.chen@tasksphere.internal",
+      "assignedBy": "usr_admin_001",
+      "assignedByName": "Sarah Jenkins",
+      "priority": "Low",
+      "status": "Not Started",
+      "dueDate": "2026-10-20",
+      "notes": "",
+      "activityLog": [
+        {
+          "action": "Task Created",
+          "performedBy": "Sarah Jenkins",
+          "performedByRole": "admin",
+          "timestamp": "2026-10-13T14:36:03.463Z",
+          "details": "Assigned to Maria Chen."
+        }
+      ],
+      "createdAt": "2026-10-13T14:36:03.463Z",
+      "updatedAt": "2026-10-13T14:36:03.463Z"
+    }
+  ],
+  "notifications": [
+    {
+      "to": "admin@tasksphere.internal",
+      "toName": "Admin Team",
+      "from": "TaskSphere <notifications@tasksphere.internal>",
+      "subject": "[TaskSphere] Task Status Update: \"Test Verification Task\" moved to \"In Progress\"",
+      "bodyHtml": "\n    <!DOCTYPE html>\n    <html>\n    <head>\n      <meta charset=\"utf-8\">\n      <style>\n        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #f8fafc; margin: 0; padding: 24px; color: #1e293b; }\n        .container { max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 12px; border: 1px solid #e2e8f0; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }\n        .header { background: linear-gradient(135deg, #0f172a, #1e293b); padding: 24px; color: white; }\n        .header h1 { margin: 0; font-size: 20px; font-weight: 600; letter-spacing: -0.02em; }\n        .header p { margin: 6px 0 0; opacity: 0.9; font-size: 14px; }\n        .content { padding: 24px; }\n        .badge { display: inline-block; padding: 4px 12px; border-radius: 9999px; font-size: 13px; font-weight: 600; color: white; background: #2563eb; }\n        .card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 18px; margin: 18px 0; }\n        .row { display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 13px; }\n        .label { color: #64748b; font-weight: 500; }\n        .value { color: #0f172a; font-weight: 600; }\n        .notes-box { margin-top: 12px; padding: 12px; background: #ffffff; border: 1px dashed #cbd5e1; border-radius: 6px; font-size: 13px; color: #334155; }\n        .footer { padding: 16px 24px; background: #f1f5f9; font-size: 12px; color: #64748b; text-align: center; }\n      </style>\n    </head>\n    <body>\n      <div class=\"container\">\n        <div class=\"header\">\n          <h1>Employee Task Update</h1>\n          <p>Notification for System Administrator</p>\n        </div>\n        <div class=\"content\">\n          <p>Hello <strong>Admin</strong>,</p>\n          <p>Employee <strong>Alex Rivers</strong> (alex.rivers@tasksphere.internal) has updated the status of a task.</p>\n          \n          <div class=\"card\">\n            <h2 style=\"margin: 0 0 12px; font-size: 18px; color: #0f172a;\">Test Verification Task</h2>\n            <div style=\"margin-bottom: 12px;\">\n              <span class=\"label\">New Status: </span>\n              <span class=\"badge\">In Progress</span>\n              <span style=\"font-size: 12px; color: #94a3b8; margin-left: 8px;\">(Previous: Not Started)</span>\n            </div>\n            <div class=\"row\">\n              <span class=\"label\">Updated By:</span>\n              <span class=\"value\">Alex Rivers</span>\n            </div>\n            <div class=\"row\">\n              <span class=\"label\">Updated At:</span>\n              <span class=\"value\">10/13/2026, 2:36:25 PM</span>\n            </div>\n            <div class=\"notes-box\"><strong>Employee Note:</strong><br/>Started working on this verification step.</div>\n          </div>\n          \n          <p style=\"font-size: 13px; color: #475569;\">\n            You can view the full activity timeline and statistics in the Admin Task Management Dashboard.\n          </p>\n        </div>\n        <div class=\"footer\">\n          TaskSphere Management System &bull; Automatic Admin Notification\n        </div>\n      </div>\n    </body>\n    </html>\n  ",
+      "bodyText": "Task Update: Test Verification Task\nNew Status: In Progress\nUpdated by: Alex Rivers (alex.rivers@tasksphere.internal)\nNotes: Started working on this verification step.",
+      "eventType": "TASK_STATUS_UPDATED",
+      "taskId": "task_ua7i3ofmv6saids",
+      "status": "SIMULATED",
+      "timestamp": "2026-10-13T14:36:25.049Z",
+      "_id": "notif_sfb4ixmmv6samvt"
+    },
+    {
+      "to": "alex.rivers@tasksphere.internal",
+      "toName": "Alex Rivers",
+      "from": "TaskSphere <notifications@tasksphere.internal>",
+      "subject": "[TaskSphere] New Task Assigned: Test Verification Task (High Priority)",
+      "bodyHtml": "\n    <!DOCTYPE html>\n    <html>\n    <head>\n      <meta charset=\"utf-8\">\n      <style>\n        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #f8fafc; margin: 0; padding: 24px; color: #1e293b; }\n        .container { max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 12px; border: 1px solid #e2e8f0; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }\n        .header { background: linear-gradient(135deg, #2563eb, #1d4ed8); padding: 24px; color: white; }\n        .header h1 { margin: 0; font-size: 20px; font-weight: 600; letter-spacing: -0.02em; }\n        .header p { margin: 6px 0 0; opacity: 0.9; font-size: 14px; }\n        .content { padding: 24px; }\n        .badge { display: inline-block; padding: 4px 10px; border-radius: 9999px; font-size: 12px; font-weight: 600; text-transform: uppercase; color: white; background: #dc2626; }\n        .task-card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 18px; margin: 18px 0; }\n        .detail-row { display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 13px; }\n        .detail-label { color: #64748b; font-weight: 500; }\n        .detail-value { color: #0f172a; font-weight: 600; }\n        .description-box { margin-top: 12px; padding-top: 12px; border-top: 1px solid #e2e8f0; font-size: 14px; line-height: 1.5; color: #334155; }\n        .footer { padding: 16px 24px; background: #f1f5f9; font-size: 12px; color: #64748b; text-align: center; }\n      </style>\n    </head>\n    <body>\n      <div class=\"container\">\n        <div class=\"header\">\n          <h1>New Task Assigned</h1>\n          <p>Assigned by Sarah Jenkins via TaskSphere</p>\n        </div>\n        <div class=\"content\">\n          <p>Hello <strong>Alex Rivers</strong>,</p>\n          <p>You have been assigned a new task. Please review the details below and update its status on your employee dashboard.</p>\n          \n          <div class=\"task-card\">\n            <div style=\"margin-bottom: 12px;\">\n              <span class=\"badge\">High Priority</span>\n              <span style=\"font-size: 12px; margin-left: 8px; color: #64748b;\">Status: Not Started</span>\n            </div>\n            <h2 style=\"margin: 0 0 10px; font-size: 18px; color: #0f172a;\">Test Verification Task</h2>\n            <div class=\"detail-row\">\n              <span class=\"detail-label\">Due Date:</span>\n              <span class=\"detail-value\">No strict deadline</span>\n            </div>\n            <div class=\"detail-row\">\n              <span class=\"detail-label\">Assigned By:</span>\n              <span class=\"detail-value\">Sarah Jenkins</span>\n            </div>\n            <div class=\"description-box\">\n              <strong>Description:</strong><br/>\n              Verify automated email notification pipeline\n            </div>\n          </div>\n          \n          <p style=\"font-size: 13px; color: #475569;\">\n            Login to your TaskSphere Employee Portal to manage this task and mark your progress.\n          </p>\n        </div>\n        <div class=\"footer\">\n          This is an automated notification from TaskSphere Management System.\n        </div>\n      </div>\n    </body>\n    </html>\n  ",
+      "bodyText": "New Task Assigned: Test Verification Task\nPriority: High\nAssigned by: Sarah Jenkins\nDescription: Verify automated email notification pipeline\nDue Date: N/A",
+      "eventType": "TASK_ASSIGNED",
+      "taskId": "task_ua7i3ofmv6saids",
+      "status": "SIMULATED",
+      "timestamp": "2026-10-13T14:36:19.216Z",
+      "_id": "notif_qgdvv44mv6saids"
+    }
+  ]
+}
